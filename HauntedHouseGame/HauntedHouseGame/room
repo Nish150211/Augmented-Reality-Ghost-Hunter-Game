@@ -1,0 +1,6 @@
+public string Description { get; private set; }
+
+public Room(string description)
+{
+    Description = description;
+}

@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class MapRenderer
+{
+    private List<Room> rooms;
+
+    public MapRenderer(List<Room> rooms)
+    {
+        this.rooms = rooms;
+    }
+
+    public void Draw(Room playerRoom)
+    {
+        Console.WriteLine("\n===== MAP =====\n");
+
+        int minX = rooms.Min(r => r.X);
+        int maxX = rooms.Max(r => r.X);
+        int minY = rooms.Min(r => r.Y);
+        int maxY = rooms.Max(r => r.Y);
+
+        for (int y = maxY; y >= minY; y--)
+        {
+            for (int x = minX; x <= maxX; x++)
+            {
+                Room room = rooms.FirstOrDefault(r => r.X == x && r.Y == y);
+
+                if (room == null)
+                {
+                    Console.Write("   ");
+                }
+                else if (room == playerRoom)
+                {
+                    Console.Write("[P]");
+                }
+                else if (room.Visited)
+                {
+                    Console.Write("[•]");
+                }
+                else
+                {
+                    Console.Write("[?]");
+                }
+            }
+            Console.WriteLine();
+        }
+
+        Console.WriteLine("\nP = Player | • = Visited | ? = Unknown");
+        Console.WriteLine("================\n");
+    }
+}

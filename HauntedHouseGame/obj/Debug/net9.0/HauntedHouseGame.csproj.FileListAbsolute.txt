@@ -1,0 +1,14 @@
+C:\Users\Nish\Desktop\HauntedHouseGame\bin\Debug\net9.0\HauntedHouseGame.exe
+C:\Users\Nish\Desktop\HauntedHouseGame\bin\Debug\net9.0\HauntedHouseGame.deps.json
+C:\Users\Nish\Desktop\HauntedHouseGame\bin\Debug\net9.0\HauntedHouseGame.runtimeconfig.json
+C:\Users\Nish\Desktop\HauntedHouseGame\bin\Debug\net9.0\HauntedHouseGame.dll
+C:\Users\Nish\Desktop\HauntedHouseGame\bin\Debug\net9.0\HauntedHouseGame.pdb
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\HauntedHouseGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\HauntedHouseGame.AssemblyInfoInputs.cache
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\HauntedHouseGame.AssemblyInfo.cs
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\HauntedHouseGame.csproj.CoreCompileInputs.cache
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\HauntedHouseGame.dll
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\refint\HauntedHouseGame.dll
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\HauntedHouseGame.pdb
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\HauntedHouseGame.genruntimeconfig.cache
+C:\Users\Nish\Desktop\HauntedHouseGame\obj\Debug\net9.0\ref\HauntedHouseGame.dll

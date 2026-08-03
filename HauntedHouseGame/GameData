@@ -1,0 +1,36 @@
+public class GameData
+{
+    public Room Kitchen { get; private set; }
+    public Room Basement { get; private set; }
+    public Room Exit { get; private set; }
+
+    private Room startingRoom;
+
+    public GameData()
+    {
+        Room entrance = new Room("Entrance of a haunted house. The door slams shut behind you.");
+        Room hallway = new Room("A dark dusty hallway. Cold air moves through the cracks.");
+
+        Kitchen = new Room("A rotten kitchen. Something shiny is buried under debris...");
+        Basement = new Room("A freezing basement. Whispering echoes surround you...");
+        Exit = new Room("A heavy wooden door. It is locked with an old mechanism.");
+
+        entrance.LinkRoom("north", hallway);
+
+        hallway.LinkRoom("south", entrance);
+        hallway.LinkRoom("east", Kitchen);
+        hallway.LinkRoom("down", Basement);
+        hallway.LinkRoom("north", Exit);
+
+        Kitchen.LinkRoom("west", hallway);
+        Basement.LinkRoom("up", hallway);
+        Exit.LinkRoom("south", hallway);
+
+        startingRoom = entrance;
+    }
+
+    public Room GetStartingRoom()
+    {
+        return startingRoom;
+    }
+}
